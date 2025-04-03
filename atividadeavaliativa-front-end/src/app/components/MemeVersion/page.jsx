@@ -1,3 +1,4 @@
+import InteractionBar from "../interactionBar";
 import styles from "./memes.module.css";
 
 export default function Home() {
@@ -276,24 +277,7 @@ export default function Home() {
                     <p className={styles.memeDescription}>{meme.description}</p>
 
                     {/* COMPONENTE: InteractionBar */}
-                    <div className={styles.interactionBar}>
-                      <div className={styles.interactionButton}>
-                        <span>👍</span>
-                        <span>{meme.likes}</span>
-                      </div>
-                      <div className={styles.interactionButton}>
-                        <span>💬</span>
-                        <span>{meme.comments}</span>
-                      </div>
-                      <div className={styles.interactionButton}>
-                        <span>🔄</span>
-                        <span>Share</span>
-                      </div>
-                      <div className={styles.interactionButton}>
-                        <span>🔖</span>
-                        <span>Save</span>
-                      </div>
-                    </div>
+                    <InteractionBar meme={meme} />
                     {/* FIM COMPONENTE: InteractionBar */}
                   </div>
                 </div>
