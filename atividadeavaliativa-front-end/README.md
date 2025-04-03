@@ -13,7 +13,7 @@ Configuração do projeto
 
 Renomear os arquivos layout.js e page.js para jsx 
 
-2. Criando componentes
+2. componentes implementados
 
 a. `Header` - Componente de cabeçalho com logo, navegação e busca
 b. `HeroSection` - Seção principal com o meme do dia
@@ -44,5 +44,4 @@ Uma aplicação web para compartilhar memes de forma facilitada e divertida.
 - Visualização de memes
 - Memes por categoria
 - Vizualização de memes em destaque
-
 
