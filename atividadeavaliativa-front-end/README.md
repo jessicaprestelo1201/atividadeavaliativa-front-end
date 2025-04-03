@@ -30,3 +30,19 @@ Para cada componente, crie um arquivo index.jsx e um arquivo nome-do-arquivo.mod
 a. Importar os componentes criados
 b. Criar a estrutura da página
 d. Exportar a página
+
+#MemeVerse
+
+Uma aplicação web para compartilhar memes de forma facilitada e divertida.
+
+#Tecnologias
+
+-  Next.js
+- Css Modules
+
+#Funcionalidades Principais 
+- Visualização de memes
+- Memes por categoria
+- Vizualização de memes em destaque
+
+
