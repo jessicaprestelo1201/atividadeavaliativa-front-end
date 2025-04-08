@@ -277,7 +277,7 @@ export default function Home() {
                     <p className={styles.memeDescription}>{meme.description}</p>
 
                     {/* COMPONENTE: InteractionBar */}
-                    <InteractionBar meme={meme} />
+          
                     {/* FIM COMPONENTE: InteractionBar */}
                   </div>
                 </div>

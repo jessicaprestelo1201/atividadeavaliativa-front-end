@@ -5,6 +5,7 @@ import Sidebar from "./components/sidebar";
 import CategoriesSection from "./components/categoriesSection";
 import HeroSection from "./components/heroSection";
 import MemeCard from "./components/memeCard";
+import Feed from "./components/feed";
 
 export default function Home() {
   return (
@@ -12,8 +13,8 @@ export default function Home() {
       <Header />
       <HeroSection />
       <Sidebar />
+      <Feed />
       <CategoriesSection />
-      <MemeCard />
       <Footer />
     </div>
   );
