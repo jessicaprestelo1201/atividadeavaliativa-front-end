@@ -1,11 +1,10 @@
 import styles from "./page.module.css";
 import Header from "./components/header";
-import Footer from "./components/footer";
-import Sidebar from "./components/sidebar";
-import CategoriesSection from "./components/categoriesSection";
 import HeroSection from "./components/heroSection";
-import MemeCard from "./components/memeCard";
+import Sidebar from "./components/sidebar";
 import Feed from "./components/feed";
+import CategoriesSection from "./components/categoriesSection";
+import Footer from "./components/footer";
 
 export default function Home() {
   return (
